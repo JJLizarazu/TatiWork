@@ -458,3 +458,113 @@ body {
     outline: 2px solid #6366f1;
     background-color: white;
 }
+@media (max-width: 900px) {
+    
+    /* Header adapta ancho */
+    .header {
+        width: 95%;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    .nav-container {
+        gap: 10px;
+    }
+
+    .nav-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+        width: 100%; /* Botones full width en móvil si gustas, o déjalo auto */
+        text-align: center;
+    }
+
+    /* Index: Bio Section en columna */
+    .bio-section {
+        flex-direction: column;
+    }
+
+    .bio-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Index: Promo Card */
+    .promo-card {
+        padding: 50px 20px;
+        border-radius: 50px;
+    }
+
+    .promo-title {
+        font-size: 32px;
+    }
+
+    /* Index: Social Section centrado en móvil */
+    .social-section {
+        max-width: 100%;
+        margin: 0 auto; /* Centrar */
+        text-align: center;
+    }
+    
+    .whatsapp-btn {
+        margin: 20px auto 0 auto; /* Centrar botón */
+    }
+
+    /* Perfil: Layout Columna */
+    .profile-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-column, .tracking-column {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .form-label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    /* Tienda: Layout Columna */
+    .shop-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-grid {
+        width: 100%;
+    }
+
+    .services-list {
+        width: 100%;
+    }
+
+    .service-row {
+        flex-wrap: wrap; /* Permitir que bajen si no caben */
+        justify-content: center;
+    }
+
+    .service-pill {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Comunidad: Layout Columna */
+    .community-layout {
+        flex-direction: column;
+    }
+
+    .comments-column, .write-column {
+        width: 100%;
+    }
+}
